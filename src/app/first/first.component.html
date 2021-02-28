@@ -1,0 +1,17 @@
+<div [style.background-color]="color"
+class="alert alert-success">
+    Ali Bouyahya
+  </div >
+  <label for="usr">Color:</label>
+  <input 
+  #monInput
+  (input)="onchangeColor(monInput.value)"
+  type="text" class="form-control" id="usr">
+<button class="btn btn-primary"
+(click)="changecolorOnClick()"
+
+>
+Click here
+</button>
+  <hr>
+  
